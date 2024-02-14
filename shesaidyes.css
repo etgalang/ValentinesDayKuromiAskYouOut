@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(241, 186, 196); /* Set the background color */
+    background-image: url('smugKuromi.jpg'); /* Replace 'your-background-image.jpg' with the path to your background image */
+    background-size: auto; /* Set the background size to auto to maintain the image's original dimensions */
+    background-position: center; /* Center the background image */
+    background-repeat:  /* Prevent background image from repeating */
+    padding: 0;
+}
+
+#celebration-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the content vertically and horizontally */
+    text-align: center; /* Center align all text */
+    color: #ffffff; /* Set text color */
+}
+
+.marquee-text {
+    font-size: 24px; /* Set font size for marquee text */
+}
+
+.love-image {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
